@@ -124,11 +124,11 @@ wait(HAKAI_OFC)
 end
 end
 --Valor
-_G.AutoVD3 = True
+_G.AutoVD2 = True
 
 --Função
-function AutoVD3()
-while _G.AutoVD3 == true do
+function AutoVD2()
+while _G.AutoVD2 == true do
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
@@ -164,11 +164,11 @@ wait(HAKAI_OFC)
 end
 end
 --Valor
-_G.AutoVD2 = True
+_G.AutoVD3 = True
 
 --Função
-function AutoVD2()
-while _G.AutoVD2 == true do
+function AutoVD3()
+while _G.AutoVD3 == true do
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
