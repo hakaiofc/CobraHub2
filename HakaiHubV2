@@ -1,5 +1,18 @@
 --Load
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/hakaiofc/Base/main/HUBORION')))()
+--ANTI AFK
+pcall(function()
+local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+warn("anti-afk")
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+end)
+end)
+
+--GLOBALS 
+LP = game.Players.LocalPlayer
+VIM = game:GetService("VirtualInputManager")
 
 --Main Script
 local Window = OrionLib:MakeWindow({Name = "HAKAI_OFC", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
