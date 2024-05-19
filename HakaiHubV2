@@ -2,7 +2,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/hakaiofc/Base/main/HUBORION')))()
 
 --Main Script
-local Window = OrionLib:MakeWindow({Name = "𝐇𝐀𝐊𝐀𝐈_𝐎𝐅𝐂", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "HAKAI_OFC", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 --Valor
 _G.AutoHealth = True
