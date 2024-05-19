@@ -37,15 +37,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 wait(0.00000000000000000001)
 end
 end
@@ -86,15 +77,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 wait(0.00000000000000000001)
 end
 end
@@ -105,15 +87,6 @@ _G.AutoVD = True
 --Função
 function AutoVD()
 while _G.AutoVD == true do
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
