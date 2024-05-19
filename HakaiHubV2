@@ -1216,7 +1216,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
    end
 })
-})
 --Infinite-Yield
 local InfiniteYieldTab = Window:MakeTab({
     Name = "Infinite-Yield",
