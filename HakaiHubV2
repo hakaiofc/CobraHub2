@@ -6,7 +6,6 @@ local Window = OrionLib:MakeWindow({Name = "Hakai-HubPriv", HidePremium = false,
 
 --Valor
 _G.AutoHealth = True
-
 --Função
 function AutoHealth()
 while _G.AutoHealth == true do
@@ -28,25 +27,13 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-wait(0.00000000000000000001)
+wait(HAKAI_OFC)
 end
 end
-
-
-
 
 --Valor
 _G.AutoVida = True
-
 --Função
 function AutoVida()
 while _G.AutoVida == true do
@@ -68,16 +55,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-wait(0.00000000000000000001)
+wait(HAKAI_OFC)
 end
 end
 
@@ -105,16 +84,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-wait(0.00000000000000000001)
+wait(HAKAI_OFC)
 end
 end
 
@@ -132,7 +103,7 @@ FarmTab:AddToggle({
     Default = false,
     Callback = function(Value)
         _G.AutoHealth = Value
-        AutoHealth(0.0000000000000000000001)
+        AutoHealth(HAKAI_OFC)
     end
 })
 FarmTab:AddToggle({
@@ -140,7 +111,7 @@ FarmTab:AddToggle({
     Default = false,
     Callback = function(Value)
         _G.AutoVida = Value
-        AutoVida(0.0000000000000000000001)
+        AutoVida(HAKAI_OFC)
     end
 })
 FarmTab:AddToggle({
@@ -148,7 +119,7 @@ FarmTab:AddToggle({
     Default = false,
     Callback = function(Value)
         _G.AutoVD = Value
-        AutoVD(0.0000000000000000000001)
+        AutoVD(HAKAI_OFC)
     end
 })
 --Infinite-Yield
