@@ -135,16 +135,7 @@ FarmTab:AddToggle({
         AutoHealth(0.0000000000000000000001)
     end
 })
---Main
-local AutoTab= Window:MakeTab({
-    Name = "Main2",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-local Section = AutoTab:AddSection({
-    Name = "AutoFarm2"
-})
-AutoTab:AddToggle({
+FarmTab:AddToggle({
     Name = "Auto-Health2",
     Default = false,
     Callback = function(Value)
@@ -152,21 +143,26 @@ AutoTab:AddToggle({
         AutoVida(0.0000000000000000000001)
     end
 })
-
---Main
-local Vida3Tab= Window:MakeTab({
-    Name = "Main3",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-local Section = Vida3Tab:AddSection({
-    Name = "AutoFarm3"
-})
-Vida3Tab:AddToggle({
+FarmTab:AddToggle({
     Name = "Auto-Health3",
     Default = false,
     Callback = function(Value)
         _G.AutoVD = Value
         AutoVD(0.0000000000000000000001)
+    end
+})
+--Infinite-Yield
+local InfiniteYieldTab = Window:MakeTab({
+    Name = "Infinite-Yield",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = InfiniteYieldTab:AddSection({
+    Name = "Infinite-Yield"
+})
+InfiniteYieldTab:AddButton({
+    Name = "InfiniteYield",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/EdgeIYinfiniteyield/main/mastersource'))()
     end
 })
