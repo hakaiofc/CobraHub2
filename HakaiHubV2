@@ -1119,11 +1119,11 @@ wait(HAKAI_OFC)
 end
 end
 --Valor
-_G.AutoVD5 = True
+_G.AutoVD6 = True
 
 --Função
-function AutoVD5()
-while _G.AutoVD5 == true do
+function AutoVD6()
+while _G.AutoVD6 == true do
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
