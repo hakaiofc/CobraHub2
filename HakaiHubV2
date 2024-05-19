@@ -1181,7 +1181,7 @@ local InstantHPTab = Window:MakeTab({
 local Section = InstantHPTab:AddSection({
     Name = "Inf-Hp"
 })
-InfiniteYieldTab:AddButton({
+InstantHPTab:AddButton({
     Name = "InstantHP",
     Callback = function()
 local args = {
@@ -1214,7 +1214,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-    end
+   end
 })
 })
 --Infinite-Yield
