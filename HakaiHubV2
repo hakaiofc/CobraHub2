@@ -1108,6 +1108,45 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 wait(HAKAI_OFC)
 end
 end
+--Valor
+_G.AutoVD5 = True
+
+--Função
+function InstantHP()
+while _G.InstantHP == true do
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+wait(HAKAI_OFC)
+end
+end
 --Main
 local FarmTab= Window:MakeTab({
     Name = "Main",
@@ -1183,38 +1222,11 @@ local Section = InstantHPTab:AddSection({
 })
 InstantHPTab:AddButton({
     Name = "InstantHP",
-    Callback = function()
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-end
+    Default = false,
+    Callback = function(Value)
+        _G.InstantHP = Value
+        InstantHP(HAKAI_OFC)
+    end
 })
 --Infinite-Yield
 local InfiniteYieldTab = Window:MakeTab({
