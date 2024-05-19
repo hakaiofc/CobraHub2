@@ -1173,12 +1173,12 @@ FarmTab:AddToggle({
         AutoVD5(HAKAI_OFC)
     end
 --InstantHP
-local InstantHP = Window:MakeTab({
+local InstantHPTab = Window:MakeTab({
     Name = "InstantHP",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-local Section = InfiniteYieldTab:AddSection({
+local Section = InstantHPTab:AddSection({
     Name = "Inf-Hp"
 })
 InfiniteYieldTab:AddButton({
