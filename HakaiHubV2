@@ -1179,7 +1179,7 @@ local InstantHPTab = Window:MakeTab({
     PremiumOnly = false
 })
 local Section = InstantHPTab:AddSection({
-    Name = "Inf-Hp"
+    Name = "IInstantHP"
 })
 InstantHPTab:AddButton({
     Name = "InstantHP",
@@ -1214,7 +1214,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-   end
+end
 })
 --Infinite-Yield
 local InfiniteYieldTab = Window:MakeTab({
