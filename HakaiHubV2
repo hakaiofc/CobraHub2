@@ -1109,7 +1109,7 @@ wait(HAKAI_OFC)
 end
 end
 --Valor
-_G.AutoVD5 = True
+_G.InstantHP = True
 
 --Função
 function InstantHP()
