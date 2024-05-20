@@ -1244,9 +1244,9 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 wait(HAKAI_OFC)
 end
 end
+
 --Valor
 _G.AutoVD7 = True
-
 --Função
 function AutoVD7()
 while _G.AutoVD7 == true do
